@@ -1,0 +1,21 @@
+// If you want to use async/await in your test environment, adjust your .babelrc file:
+
+{
+	"presets": [
+		[
+			"@babel/preset-env", {
+				"targets": {
+					"node": "current"
+				}
+			}
+		]
+	]
+}
+
+/*
+{
+	"presets": [
+		"@babel/preset-env"
+	]
+}
+*/
