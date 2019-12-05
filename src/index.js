@@ -37,7 +37,7 @@ app.use(cors());
 //const userLoader = new DataLoader(keys => batchUsers(keys, models));
 
 const server = new ApolloServer({
-  introspection: true,
+  playground: true,
   typeDefs: schema,
   resolvers,
   formatError: error => {
